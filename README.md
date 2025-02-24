@@ -144,6 +144,7 @@ npx jest --init
 
 12. 自动化部署流程配置
 
-本项目基于github actions实现自动化部署，所以需要有自己的github账号，生成自己的ssh密钥
+本项目基于 github actions 实现自动化部署，所以需要有自己的 github 账号，生成自己的 ssh 密钥
 
-1. 新建.github/workflows文件，然后根据需求写yaml脚本
+1. 新建.github/workflows 文件，然后根据需求写 yaml 脚本
+   可参考：https://d.umijs.org/guide/faq#%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3

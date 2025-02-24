@@ -7,10 +7,10 @@ export default defineConfig({
   base: '/wang-react-hooks/',
   publicPath: '/wang-react-hooks/',
   hash: true,
-  favicons: ['/logo.png'],
+  favicons: ['/wang-react-hooks/logo.png'],
   themeConfig: {
     name: '',
-    logo: '/logo.png',
+    logo: '/wang-react-hooks/logo.png',
     showLineNum: true,
   },
   alias: {
