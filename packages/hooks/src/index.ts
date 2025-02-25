@@ -6,6 +6,7 @@ import useLatest from './useLatest';
 import useDebounce from './useDebounce';
 import useDebounceFn from './useDebounceFn';
 import useUnmount from './useUnmount';
+import useGetState from './useGetState';
 
 export {
   useToggle,
@@ -16,4 +17,5 @@ export {
   useDebounce,
   useDebounceFn,
   useUnmount,
+  useGetState,
 };
