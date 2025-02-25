@@ -7,6 +7,8 @@ import useDebounce from './useDebounce';
 import useDebounceFn from './useDebounceFn';
 import useUnmount from './useUnmount';
 import useGetState from './useGetState';
+import useUpdateEffect from './useUpdateEffect';
+import useLocalStorageState from './useLocalStorageState';
 
 export {
   useToggle,
@@ -18,4 +20,6 @@ export {
   useDebounceFn,
   useUnmount,
   useGetState,
+  useUpdateEffect,
+  useLocalStorageState,
 };
