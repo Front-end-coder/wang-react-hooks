@@ -5,5 +5,6 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'off', // 关闭ts-ignore校验
     'no-console': 'off', // 关闭console校验
     '@typescript-eslint/restrict-plus-operands': 'off', // 关闭+操作符校验
+    'import/namespace': 'off', // 关闭namespace校验
   },
 };
