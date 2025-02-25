@@ -1,4 +1,4 @@
-import { debounce } from 'lodash-es';
+import { debounce } from 'lodash';
 
 function isNodeOrWeb() {
   const freeGlobal =

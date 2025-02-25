@@ -1,5 +1,5 @@
 import { act, renderHook } from '@testing-library/react';
-import { sleep } from '../../utils/testingHelper';
+import { sleep } from '../../utils/testingHelpers';
 import useDebounceFn from '..';
 
 interface ParamsObj {
