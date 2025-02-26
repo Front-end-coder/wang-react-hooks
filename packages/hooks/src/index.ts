@@ -12,6 +12,8 @@ import useLocalStorageState from './useLocalStorageState';
 import useMap from './useMap';
 import usePrevious from './usePrevious';
 import useResetState from './useResetState';
+import useUnmountedRef from './useUnmountedRef';
+import useSafeState from './useSafeState';
 
 export {
   useToggle,
@@ -28,4 +30,6 @@ export {
   useMap,
   usePrevious,
   useResetState,
+  useUnmountedRef,
+  useSafeState,
 };
