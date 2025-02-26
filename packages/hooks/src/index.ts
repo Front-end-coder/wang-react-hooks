@@ -16,6 +16,8 @@ import useUnmountedRef from './useUnmountedRef';
 import useSafeState from './useSafeState';
 import useSet from './useSet';
 import useSetState from './useSetState';
+import useThrottleFn from './useThrottleFn';
+import useThrottle from './useThrottle';
 
 export {
   useToggle,
@@ -36,4 +38,6 @@ export {
   useSafeState,
   useSet,
   useSetState,
+  useThrottleFn,
+  useThrottle,
 };
