@@ -1,8 +1,8 @@
 {
   "name": "w-hooks",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "业务hooks集合",
+  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm ",
     "prepare": "husky install",
@@ -13,10 +13,14 @@
     "encode-fe-lint-fix": "encode-fe-lint fix",
     "test": "jest",
     "init": "pnpm install && pnpm run build",
-    "deploy": "gh-pages -d docs-dist"
+    "publish": "pnpm run build && pnpm --filter=./packages/* publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "w-hooks",
+    "react",
+    "hooks"
+  ],
+  "author": "wangcheng",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.26.9",
