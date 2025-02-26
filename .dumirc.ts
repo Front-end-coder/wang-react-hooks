@@ -7,14 +7,14 @@ export default defineConfig({
   base: '/wang-react-hooks/',
   publicPath: '/wang-react-hooks/',
   hash: true,
-  favicons: ['/logo.png'],
+  favicons: ['/wang-react-hooks/logo.png'],
   themeConfig: {
     name: '',
-    logo: '/logo.png',
+    logo: '/wang-react-hooks/logo.png',
     showLineNum: true,
   },
   alias: {
-    encodeHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    'w-hooks': process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     // 约定式路由的根目录配置

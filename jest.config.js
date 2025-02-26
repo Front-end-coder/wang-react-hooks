@@ -24,7 +24,7 @@ const config = {
     '!**/lib/**',
     '!**/dist/**',
   ], // 定义哪些文件应该被收集测试覆盖率信息
-  transformIgnorePatterns: ['^.+\\.js$'], // ts文件不转换
+  transformIgnorePatterns: ['^.+\\.js$', '/node_modules/(?!(lodash-es)/)'], // ts文件不转换
 };
 
 module.exports = config;

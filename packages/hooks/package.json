@@ -2,17 +2,46 @@
   "name": "encode-hooks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "auth": "wangcheng",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "respository": "https://github.com/Front-end-coder/wang-react-hooks",
+  "homepage": "https://github.com/Front-end-coder/wang-react-hooks",
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "metadata.json",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "gulp": "gulp",
     "webpack": "webpack-cli",
     "build": "gulp && webpack-cli"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "w-hooks",
+    "react",
+    "hooks"
+  ],
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21"
+  },
   "peerDependencies": {
     "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.15",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^22.13.5",
+    "antd": "^5.24.1"
   }
 }

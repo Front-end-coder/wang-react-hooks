@@ -1,10 +1,11 @@
 {
-  "name": "wang-react-hooks",
+  "name": "w-hooks",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "业务hooks集合",
+  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm ",
+    "prepare": "husky install",
     "dev": "dumi dev",
     "build:doc": "rimraf dist && dumi build",
     "build": "pnpm --filter=./packages/* run build",
@@ -12,10 +13,14 @@
     "encode-fe-lint-fix": "encode-fe-lint fix",
     "test": "jest",
     "init": "pnpm install && pnpm run build",
-    "deploy": "gh-pages -d docs-dist"
+    "publish": "pnpm run build && pnpm --filter=./packages/* publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "w-hooks",
+    "react",
+    "hooks"
+  ],
+  "author": "wangcheng",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.26.9",
@@ -25,6 +30,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.5",
     "del": "^8.0.0",
     "encode-fe-lint": "^1.0.9",
     "fast-glob": "^3.3.3",
