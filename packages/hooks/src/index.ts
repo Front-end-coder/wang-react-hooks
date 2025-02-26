@@ -14,6 +14,7 @@ import usePrevious from './usePrevious';
 import useResetState from './useResetState';
 import useUnmountedRef from './useUnmountedRef';
 import useSafeState from './useSafeState';
+import useSet from './useSet';
 
 export {
   useToggle,
@@ -32,4 +33,5 @@ export {
   useResetState,
   useUnmountedRef,
   useSafeState,
+  useSet,
 };
