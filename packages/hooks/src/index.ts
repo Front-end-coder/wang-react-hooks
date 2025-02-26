@@ -10,6 +10,7 @@ import useGetState from './useGetState';
 import useUpdateEffect from './useUpdateEffect';
 import useLocalStorageState from './useLocalStorageState';
 import useMap from './useMap';
+import usePrevious from './usePrevious';
 
 export {
   useToggle,
@@ -24,4 +25,5 @@ export {
   useUpdateEffect,
   useLocalStorageState,
   useMap,
+  usePrevious,
 };

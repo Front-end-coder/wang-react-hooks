@@ -60,7 +60,7 @@ pnpm run changelog
 
 ## 📧 联系
 
-- **wang react hooks** <https://front-end-coder.github.io/wang-react-hooks/>
+- **wang react hooks** <https://front-end-coder.github.io/wang-react-hooks></code>
 - **GitHub**: <https://github.com/Front-end-coder/wang-react-hooks>
 
 </br>

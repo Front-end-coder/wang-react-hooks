@@ -6,5 +6,6 @@ module.exports = {
     'no-console': 'off', // 关闭console校验
     '@typescript-eslint/restrict-plus-operands': 'off', // 关闭+操作符校验
     'import/namespace': 'off', // 关闭namespace校验
+    '@typescript-eslint/consistent-type-assertions': 'off', // 关闭类型常量断言校验
   },
 };
