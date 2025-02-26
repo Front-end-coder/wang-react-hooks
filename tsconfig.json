@@ -11,7 +11,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "w-hooks": ["./packages/hooks/src/index.ts"]
+      "wang-react-hooks": ["./packages/hooks/src/index.ts"]
     },
     "allowSyntheticDefaultImports": true, // 默认导出
     "skipLibCheck": true,

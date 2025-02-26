@@ -1,9 +1,9 @@
-import * as w-hooks from '../index';
+import * as wangReactHooks from '../index';
 
-describe('w-hooks', () => {
+describe('wangReactHooks', () => {
   it('exports modules should be defined', () => {
-    Object.keys(w-hooks).forEach((module) => {
-      expect(w-hooks[module]).toBeDefined();
+    Object.keys(wangReactHooks).forEach((module) => {
+      expect(wangReactHooks[module]).toBeDefined();
     });
   });
 });

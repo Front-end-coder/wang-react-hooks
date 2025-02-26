@@ -4,7 +4,7 @@
  */
 
 import React, { useEffect } from 'react';
-import { useGetState } from 'w-hooks';
+import { useGetState } from 'wang-react-hooks';
 
 export default () => {
   const [count, setCount, getCount] = useGetState<number>(0);

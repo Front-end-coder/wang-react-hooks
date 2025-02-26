@@ -1,5 +1,5 @@
 import React from 'react';
-import { useResetState } from 'w-hooks';
+import { useResetState } from 'wang-react-hooks';
 
 interface State {
   hello: string;

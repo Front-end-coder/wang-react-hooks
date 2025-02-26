@@ -16,7 +16,7 @@
     "publish": "pnpm run build && pnpm --filter=./packages/* publish --access=public"
   },
   "keywords": [
-    "w-hooks",
+    "wang-react-hooks",
     "react",
     "hooks"
   ],

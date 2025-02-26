@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useToggle } from 'w-hooks';
+import { useToggle } from 'wang-react-hooks';
 
 export default () => {
   const [state, { toggle, set, setLeft, setRight }] = useToggle('Hello', 'World');

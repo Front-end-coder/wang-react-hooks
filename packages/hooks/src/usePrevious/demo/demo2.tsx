@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { usePrevious } from 'w-hooks';
+import { usePrevious } from 'wang-react-hooks';
 
 interface Person {
   name: string;

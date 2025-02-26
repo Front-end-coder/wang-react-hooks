@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useCookieState } from 'w-hooks';
+import { useCookieState } from 'wang-react-hooks';
 
 export default function App() {
   const [value, setValue] = useCookieState('useCookieStateUpdater', {

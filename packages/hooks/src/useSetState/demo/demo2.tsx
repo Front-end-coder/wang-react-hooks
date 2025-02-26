@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useSetState } from 'w-hooks';
+import { useSetState } from 'wang-react-hooks';
 
 interface State {
   hello: string;

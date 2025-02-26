@@ -1,7 +1,7 @@
 ---
 title: 首页
 hero:
-  title: w-hooks
+  title: wang-react-hooks
   description: 一个基于react库实现的自定义hooks
   actions:
     - text: 指南
@@ -23,13 +23,13 @@ features:
 ## 📦 安装
 
 ```bash
-$ pnpm install --save w-hooks
+$ pnpm install --save wang-react-hooks
 # or
-$ yarn add w-hooks
+$ yarn add wang-react-hooks
 ```
 
 ## 🔨 使用
 
 ```ts
-import { useToggle } from 'w-hooks';
+import { useToggle } from 'wang-react-hooks';
 ```

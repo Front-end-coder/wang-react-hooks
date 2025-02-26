@@ -14,7 +14,7 @@ export default defineConfig({
     showLineNum: true,
   },
   alias: {
-    'w-hooks': process.cwd() + '/packages/hooks/src/index.ts',
+    'wang-react-hooks': process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     // 约定式路由的根目录配置
