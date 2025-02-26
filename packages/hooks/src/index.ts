@@ -9,6 +9,7 @@ import useUnmount from './useUnmount';
 import useGetState from './useGetState';
 import useUpdateEffect from './useUpdateEffect';
 import useLocalStorageState from './useLocalStorageState';
+import useMap from './useMap';
 
 export {
   useToggle,
@@ -22,4 +23,5 @@ export {
   useGetState,
   useUpdateEffect,
   useLocalStorageState,
+  useMap,
 };
