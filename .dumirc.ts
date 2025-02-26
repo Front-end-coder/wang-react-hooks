@@ -14,7 +14,7 @@ export default defineConfig({
     showLineNum: true,
   },
   alias: {
-    encodeHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    'w-hooks': process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     // 约定式路由的根目录配置

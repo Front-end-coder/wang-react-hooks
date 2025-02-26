@@ -1,5 +1,8 @@
 ---
-group: Effect
+nav: Hooks
+group:
+  title: Effect
+  order: 3
 ---
 
 # useThrottleFn
@@ -10,7 +13,7 @@ group: Effect
 
 ### 基础用法
 
-<code src="./demo/demo1.tsx" />
+<code src="./demo/demo1.tsx"></code>
 
 ## API
 

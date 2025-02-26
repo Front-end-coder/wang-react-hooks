@@ -1,9 +1,9 @@
-import * as encodeHooks from '../index';
+import * as w-hooks from '../index';
 
-describe('encodeHooks', () => {
+describe('w-hooks', () => {
   it('exports modules should be defined', () => {
-    Object.keys(encodeHooks).forEach((module) => {
-      expect(encodeHooks[module]).toBeDefined();
+    Object.keys(w-hooks).forEach((module) => {
+      expect(w-hooks[module]).toBeDefined();
     });
   });
 });

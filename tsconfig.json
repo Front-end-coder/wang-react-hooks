@@ -11,10 +11,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "encodeHooks": ["./packages/hooks/src/index.ts"],
-      "encode-hooks": ["./packages/hooks/src/index.ts"],
-      "encodeHooks/lib/*": ["./packages/hooks/src/*"],
-      "encode-hooks/lib/*": ["./packages/hooks/src/*"]
+      "w-hooks": ["./packages/hooks/src/index.ts"]
     },
     "allowSyntheticDefaultImports": true, // 默认导出
     "skipLibCheck": true,

@@ -1,5 +1,8 @@
 ---
-group: 状态
+nav: Hooks
+group:
+  title: 状态
+  order: 1
 ---
 
 # useSafeState

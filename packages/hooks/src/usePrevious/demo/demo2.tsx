@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { usePrevious } from 'encodeHooks';
+import { usePrevious } from 'w-hooks';
 
 interface Person {
   name: string;

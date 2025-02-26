@@ -1,13 +1,13 @@
 ---
 title: 首页
 hero:
-  title: wang-react-hooks
+  title: w-hooks
   description: 一个基于react库实现的自定义hooks
   actions:
     - text: 指南
       link: /guide
     - text: hooks列表
-      link: /hooks
+      link: /components/use-boolean
 features:
   - title: 可靠的代码健壮
     emoji: 💎
@@ -23,13 +23,13 @@ features:
 ## 📦 安装
 
 ```bash
-$ pnpm install --save encode-hooks
+$ pnpm install --save w-hooks
 # or
-$ yarn add encode-hooks
+$ yarn add w-hooks
 ```
 
 ## 🔨 使用
 
 ```ts
-import { useToggle } from 'encode-hooks';
+import { useToggle } from 'w-hooks';
 ```

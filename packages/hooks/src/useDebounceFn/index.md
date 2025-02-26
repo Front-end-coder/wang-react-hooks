@@ -1,5 +1,8 @@
 ---
-group: Effect
+nav: Hooks
+group:
+  title: Effect
+  order: 3
 ---
 
 # useDebounceFn
