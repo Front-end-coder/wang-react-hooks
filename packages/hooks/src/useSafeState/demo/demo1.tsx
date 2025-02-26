@@ -1,4 +1,4 @@
-import { useSafeState } from 'w-hooks';
+import { useSafeState } from 'wang-react-hooks';
 import React, { useEffect, useState } from 'react';
 
 const Child = () => {

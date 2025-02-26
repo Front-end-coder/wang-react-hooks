@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { useDebounce } from 'w-hooks';
+import { useDebounce } from 'wang-react-hooks';
 
 export default () => {
   const [value, setValue] = useState<string>();

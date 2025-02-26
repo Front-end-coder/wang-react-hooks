@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useLocalStorageState } from 'w-hooks';
+import { useLocalStorageState } from 'wang-react-hooks';
 
 const defaultArray = ['a', 'e', 'i', 'o', 'u'];
 

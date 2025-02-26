@@ -1,5 +1,5 @@
 {
-  "name": "w-hooks",
+  "name": "wang-react-hooks",
   "version": "1.0.0",
   "description": "业务hooks集合",
   "private": true,
@@ -13,10 +13,10 @@
     "encode-fe-lint-fix": "encode-fe-lint fix",
     "test": "jest",
     "init": "pnpm install && pnpm run build",
-    "publish": "pnpm run build && pnpm --filter=./packages/* publish"
+    "publish": "pnpm run build && pnpm --filter=./packages/* publish --access=public"
   },
   "keywords": [
-    "w-hooks",
+    "wang-react-hooks",
     "react",
     "hooks"
   ],

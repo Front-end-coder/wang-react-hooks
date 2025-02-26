@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { useLatest } from 'w-hooks';
+import { useLatest } from 'wang-react-hooks';
 
 export default () => {
   const [count, setCount] = useState(0);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useBoolean } from 'w-hooks';
+import { useBoolean } from 'wang-react-hooks';
 
 export default () => {
   const [state, { toggle, setTrue, setFalse }] = useBoolean();

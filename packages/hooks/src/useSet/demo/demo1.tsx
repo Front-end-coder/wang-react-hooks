@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSet } from 'w-hooks';
+import { useSet } from 'wang-react-hooks';
 
 export default () => {
   const [set, { add, remove, reset }] = useSet(['Hello']);

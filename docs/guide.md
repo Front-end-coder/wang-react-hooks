@@ -2,7 +2,7 @@
 nav: 指南
 ---
 
-# w-hooks
+# wang-react-hooks
 
 一个基于 react 库实现的自定义 hooks
 
@@ -60,7 +60,7 @@ pnpm run changelog
 
 ## 📧 联系
 
-- **w-hooks** <https://front-end-coder.github.io/wang-react-hooks></code>
+- **wang-react-hooks** <https://front-end-coder.github.io/wang-react-hooks></code>
 - **GitHub**: <https://github.com/Front-end-coder/wang-react-hooks>
 
 </br>
