@@ -21,5 +21,5 @@ metadata.json
 .eslintcache
 node_modules
 
-.dumi/temp/
-.dumi/temp-production/
+.dumi/tmp/
+.dumi/tmp-production/
