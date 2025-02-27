@@ -111,6 +111,9 @@ importers:
       react:
         specifier: ^18.3.1
         version: 18.3.1
+      screenfull:
+        specifier: ^5.2.0
+        version: 5.2.0
     devDependencies:
       '@types/js-cookie':
         specifier: ^3.0.6
@@ -14502,6 +14505,11 @@ packages:
       ajv: 8.17.1
       ajv-formats: 2.1.1(ajv@8.17.1)
       ajv-keywords: 5.1.0(ajv@8.17.1)
+
+  /screenfull@5.2.0:
+    resolution: {integrity: sha512-9BakfsO2aUQN2K9Fdbj87RJIEZ82Q9IGim7FqM5OsebfoFC6ZHXgDq/KvniuLTPdeM8wY2o6Dj3WQ7KeQCj3cA==}
+    engines: {node: '>=0.10.0'}
+    dev: false
 
   /scroll-into-view-if-needed@3.1.0:
     resolution: {integrity: sha512-49oNpRjWRvnU8NyGVmUaYG4jtTkNonFZI86MmGRDqBphEK2EXT9gdEUoQPZhuBM8yWHxCWbobltqYO5M4XrUvQ==}
