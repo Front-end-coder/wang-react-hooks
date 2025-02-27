@@ -29,6 +29,7 @@ import useDrop from './useDrop';
 import useEventTarget from './useEventTarget';
 import useFullscreen from './useFullscreen';
 import useHover from './useHover';
+import useInViewport from './useInViewport';
 
 export {
   useToggle,
@@ -60,4 +61,5 @@ export {
   useEventTarget,
   useFullscreen,
   useHover,
+  useInViewport,
 };
