@@ -18,11 +18,14 @@ import useSet from './useSet';
 import useSetState from './useSetState';
 import useThrottleFn from './useThrottleFn';
 import useThrottle from './useThrottle';
+import useMount from './useMount';
 
 // dom相关
 import useClickAway from './useClickAway';
 import useEventListener from './useEventListener';
 import useDocumentVisibility from './useDocumentVisibility';
+import useDrag from './useDrag';
+import useDrop from './useDrop';
 
 export {
   useToggle,
@@ -48,4 +51,7 @@ export {
   useClickAway,
   useEventListener,
   useDocumentVisibility,
+  useMount,
+  useDrag,
+  useDrop,
 };
