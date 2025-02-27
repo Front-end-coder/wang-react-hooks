@@ -1,6 +1,6 @@
 /**
  * title: 自定义拖拽图像
- * desc: 自定义拖拽过程中跟随鼠标指针的图像。
+ * description: 自定义拖拽过程中跟随鼠标指针的图像。
  */
 
 import React, { useRef } from 'react';

@@ -19,11 +19,11 @@ group:
 
 ### 基础用法
 
-<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx"></code>
 
 ### 自定义拖拽图像
 
-<code hideActions='["CSB"]' src="./demo/demo2.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo2.tsx"></code>
 
 ## API
 

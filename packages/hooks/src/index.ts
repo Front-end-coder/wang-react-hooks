@@ -26,6 +26,7 @@ import useEventListener from './useEventListener';
 import useDocumentVisibility from './useDocumentVisibility';
 import useDrag from './useDrag';
 import useDrop from './useDrop';
+import useEventTarget from './useEventTarget';
 
 export {
   useToggle,
@@ -54,4 +55,5 @@ export {
   useMount,
   useDrag,
   useDrop,
+  useEventTarget,
 };

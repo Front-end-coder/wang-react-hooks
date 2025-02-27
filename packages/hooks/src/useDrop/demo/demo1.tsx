@@ -1,6 +1,6 @@
 /**
  * title: 基础用法
- * desc: 拖拽区域可以接受文件，链接，文字，和下方的 box 节点。
+ * description: 拖拽区域可以接受文件，链接，文字，和下方的 box 节点。
  */
 
 import React, { useRef, useState } from 'react';
