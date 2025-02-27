@@ -19,6 +19,9 @@ import useSetState from './useSetState';
 import useThrottleFn from './useThrottleFn';
 import useThrottle from './useThrottle';
 
+// dom相关
+import useClickAway from './useClickAway';
+
 export {
   useToggle,
   useBoolean,
@@ -40,4 +43,5 @@ export {
   useSetState,
   useThrottleFn,
   useThrottle,
+  useClickAway,
 };

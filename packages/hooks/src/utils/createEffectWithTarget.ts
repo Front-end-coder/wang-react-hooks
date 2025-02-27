@@ -4,6 +4,7 @@ import { BasicTarget, getTargetElement } from './domTarget';
 import depsAreSame from './depsAreSame';
 import useUnmount from '../useUnmount';
 
+// 类似于自定义了一个useEffect,支持target参数
 export default function createEffectWithTarget(
   useEffectType: typeof useEffect | typeof useLayoutEffect,
 ) {
@@ -19,7 +20,7 @@ export default function createEffectWithTarget(
     const lastElementRef = useRef<(Element | null)[]>(null);
     const lastDepsRef = useRef<DependencyList>([]);
 
-    // 存储副作用函数
+    // 存储组件的卸载函数
     const unLoadRef = useRef<any>();
 
     useEffectType(() => {
