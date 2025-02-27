@@ -27,7 +27,7 @@ export default function createEffectWithTarget(
       const targets = Array.isArray(target) ? target : [target];
       const els = targets.map((item) => getTargetElement(item));
 
-      // 初始化
+      // 首次和更新后执行
       if (!hasInitRef.current) {
         hasInitRef.current = true;
         lastElementRef.current = els;
@@ -36,7 +36,7 @@ export default function createEffectWithTarget(
 
         return;
       }
-
+      // 更新时执行
       if (
         els.length !== lastElementRef.current.length ||
         !depsAreSame(els, lastElementRef.current) ||

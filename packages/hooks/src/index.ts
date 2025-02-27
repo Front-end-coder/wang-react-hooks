@@ -21,6 +21,8 @@ import useThrottle from './useThrottle';
 
 // dom相关
 import useClickAway from './useClickAway';
+import useEventListener from './useEventListener';
+import useDocumentVisibility from './useDocumentVisibility';
 
 export {
   useToggle,
@@ -44,4 +46,6 @@ export {
   useThrottleFn,
   useThrottle,
   useClickAway,
+  useEventListener,
+  useDocumentVisibility,
 };
