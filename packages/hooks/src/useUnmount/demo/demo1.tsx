@@ -1,6 +1,6 @@
 /**
  * title: 基础用法
- * desc: 在组件卸载时，执行函数。
+ * description: 在组件卸载时，执行函数。
  */
 
 import { useBoolean, useUnmount } from 'wang-react-hooks';

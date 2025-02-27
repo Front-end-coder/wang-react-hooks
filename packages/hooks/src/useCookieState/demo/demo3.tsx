@@ -1,6 +1,6 @@
 /**
  * title: 使用 option 配置 Cookie
- * desc: 可配置属性：默认值、有效时间、路径、域名、协议、跨域等，详见 Options 文档。
+ * description: 可配置属性：默认值、有效时间、路径、域名、协议、跨域等，详见 Options 文档。
  */
 
 import React from 'react';

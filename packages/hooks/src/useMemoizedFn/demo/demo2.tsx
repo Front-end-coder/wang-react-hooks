@@ -1,6 +1,6 @@
 /**
  * title: useMemoizedFn 函数地址不会变化，可以用于性能优化
- * desc: 示例中 `memoizedFn` 是不会变化的，`callbackFn` 在 count 变化时变化。
+ * description: 示例中 `memoizedFn` 是不会变化的，`callbackFn` 在 count 变化时变化。
  */
 
 import { useMemoizedFn } from 'wang-react-hooks';

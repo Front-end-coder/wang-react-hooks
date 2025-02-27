@@ -1,6 +1,6 @@
 /**
  * title: 在任意两个值之间切换
- * desc: 接受两个可选参数，在它们之间进行切换。
+ * description: 接受两个可选参数，在它们之间进行切换。
  */
 
 import React from 'react';
