@@ -1,6 +1,6 @@
 /**
  * title: 打开控制台查看输出
- * desc: 计数器每 3 秒打印一次值
+ * description: 计数器每 3 秒打印一次值
  */
 
 import React, { useEffect } from 'react';

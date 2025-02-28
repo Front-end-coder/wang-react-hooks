@@ -18,6 +18,27 @@ import useSet from './useSet';
 import useSetState from './useSetState';
 import useThrottleFn from './useThrottleFn';
 import useThrottle from './useThrottle';
+import useMount from './useMount';
+
+// dom相关
+import useClickAway from './useClickAway';
+import useEventListener from './useEventListener';
+import useDocumentVisibility from './useDocumentVisibility';
+import useDrag from './useDrag';
+import useDrop from './useDrop';
+import useEventTarget from './useEventTarget';
+import useFullscreen from './useFullscreen';
+import useHover from './useHover';
+import useInViewport from './useInViewport';
+import useLongPress from './useLongPress';
+import useRafState from './useRafState';
+import useMouse from './useMouse';
+import useKeyPress from './useKeyPress';
+import useMutationObserver from './useMutationObserver';
+import { configResponsive, useResponsive } from './useResponsive';
+import useScroll from './useScroll';
+import useSize from './useSize';
+import useTitle from './useTitle';
 
 export {
   useToggle,
@@ -40,4 +61,24 @@ export {
   useSetState,
   useThrottleFn,
   useThrottle,
+  useClickAway,
+  useEventListener,
+  useDocumentVisibility,
+  useMount,
+  useDrag,
+  useDrop,
+  useEventTarget,
+  useFullscreen,
+  useHover,
+  useInViewport,
+  useLongPress,
+  useRafState,
+  useMouse,
+  useKeyPress,
+  useMutationObserver,
+  configResponsive,
+  useResponsive,
+  useScroll,
+  useSize,
+  useTitle,
 };

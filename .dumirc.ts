@@ -9,7 +9,7 @@ export default defineConfig({
   hash: true,
   favicons: ['/wang-react-hooks/logo.png'],
   themeConfig: {
-    name: '',
+    name: 'wang',
     logo: '/wang-react-hooks/logo.png',
     showLineNum: true,
   },

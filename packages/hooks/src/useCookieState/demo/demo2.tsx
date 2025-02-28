@@ -1,6 +1,6 @@
 /**
  * title: setState 可以接收函数
- * desc: useCookieState 的 setState 可以接收 function updater，就像 useState 那样。
+ * description: useCookieState 的 setState 可以接收 function updater，就像 useState 那样。
  */
 
 import React from 'react';

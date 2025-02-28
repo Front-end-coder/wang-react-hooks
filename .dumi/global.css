@@ -1,3 +1,9 @@
 .dumi-default-hero-title {
   font-size: 130px !important;
 }
+.dumi-default-features-item {
+  text-align: center;
+}
+.dumi-default-source-code > pre.prism-code {
+  background: #fff;
+}
