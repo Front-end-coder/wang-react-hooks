@@ -148,3 +148,7 @@ npx jest --init
 
 1. 新建.github/workflows 文件，然后根据需求写 yaml 脚本
    可参考：https://d.umijs.org/guide/faq#%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3
+
+## 注意事项
+
+在发布库时需要更改库的版本号，如果版本号一致，则默认不发布
