@@ -114,6 +114,9 @@ importers:
       react:
         specifier: ^18.3.1
         version: 18.3.1
+      resize-observer-polyfill:
+        specifier: ^1.5.1
+        version: 1.5.1
       screenfull:
         specifier: ^5.2.0
         version: 5.2.0

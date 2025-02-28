@@ -37,6 +37,7 @@ import useKeyPress from './useKeyPress';
 import useMutationObserver from './useMutationObserver';
 import { configResponsive, useResponsive } from './useResponsive';
 import useScroll from './useScroll';
+import useSize from './useSize';
 
 export {
   useToggle,
@@ -77,4 +78,5 @@ export {
   configResponsive,
   useResponsive,
   useScroll,
+  useSize,
 };

@@ -11,8 +11,8 @@ const config = {
   testPathIgnorePatterns: ['/.history/'], // 测试忽略文件
   modulePathIgnorePatterns: ['<rootDir>/package.json'], // 模块解析时应该忽略的文件
   resetMocks: false, // 每次测试前不重置模拟函数
-  setupFiles: ['./jest.setup.js', 'jest-localstorage-mock'], // 每次执行测试文件之前执行的文件
-  setupFilesAfterEnv: ['@testing-library/jest-dom/matchers'], // 每次执行测试文件之前执行的文件，在测试环境初始化后执行，注入更多的expect情况
+  setupFiles: ['./jest.setup.js', 'jest-localstorage-mock'], // 它会在 Jest 加载测试文件之前运行，在这个阶段，Jest 的测试框架（如 describe、it 等）还未准备好
+  setupFilesAfterEnv: ['@testing-library/jest-dom'], // 此时测试框架已经准备好，可以在这些文件中使用 Jest 的 API 进行一些测试前的准备工作。例如导入jest-dom扩展expect能力
   transform: {
     '^.+\\.tsx?$': ['ts-jest', { tsconfig: 'tsconfig.json' }],
   }, // ts-jest转换ts、tsx文件
