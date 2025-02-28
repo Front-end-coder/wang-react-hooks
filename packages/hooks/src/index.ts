@@ -35,6 +35,7 @@ import useRafState from './useRafState';
 import useMouse from './useMouse';
 import useKeyPress from './useKeyPress';
 import useMutationObserver from './useMutationObserver';
+import { configResponsive, useResponsive } from './useResponsive';
 
 export {
   useToggle,
@@ -72,4 +73,6 @@ export {
   useMouse,
   useKeyPress,
   useMutationObserver,
+  configResponsive,
+  useResponsive,
 };
