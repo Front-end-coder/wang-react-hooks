@@ -34,6 +34,7 @@ import useLongPress from './useLongPress';
 import useRafState from './useRafState';
 import useMouse from './useMouse';
 import useKeyPress from './useKeyPress';
+import useMutationObserver from './useMutationObserver';
 
 export {
   useToggle,
@@ -70,4 +71,5 @@ export {
   useRafState,
   useMouse,
   useKeyPress,
+  useMutationObserver,
 };
