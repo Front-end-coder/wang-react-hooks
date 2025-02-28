@@ -30,6 +30,7 @@ import useEventTarget from './useEventTarget';
 import useFullscreen from './useFullscreen';
 import useHover from './useHover';
 import useInViewport from './useInViewport';
+import useLongPress from './useLongPress';
 
 export {
   useToggle,
@@ -62,4 +63,5 @@ export {
   useFullscreen,
   useHover,
   useInViewport,
+  useLongPress,
 };
