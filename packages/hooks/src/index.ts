@@ -33,6 +33,7 @@ import useInViewport from './useInViewport';
 import useLongPress from './useLongPress';
 import useRafState from './useRafState';
 import useMouse from './useMouse';
+import useKeyPress from './useKeyPress';
 
 export {
   useToggle,
@@ -68,4 +69,5 @@ export {
   useLongPress,
   useRafState,
   useMouse,
+  useKeyPress,
 };
