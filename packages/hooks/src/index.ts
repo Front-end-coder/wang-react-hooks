@@ -31,6 +31,8 @@ import useFullscreen from './useFullscreen';
 import useHover from './useHover';
 import useInViewport from './useInViewport';
 import useLongPress from './useLongPress';
+import useRafState from './useRafState';
+import useMouse from './useMouse';
 
 export {
   useToggle,
@@ -64,4 +66,6 @@ export {
   useHover,
   useInViewport,
   useLongPress,
+  useRafState,
+  useMouse,
 };
