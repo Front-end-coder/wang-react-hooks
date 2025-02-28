@@ -6,7 +6,9 @@
 import React, { useRef, useState } from 'react';
 import { useDrop, useDrag } from 'wang-react-hooks';
 
-const DragItem = ({ data }) => {
+const DragItem = ({ data, key }) => {
+  console.log(key);
+
   const dragRef = useRef(null);
 
   const [dragging, setDragging] = useState(false);
@@ -70,9 +72,7 @@ export default () => {
 
       <div style={{ display: 'flex', marginTop: 8 }}>
         {['1', '2', '3', '4', '5'].map((e) => (
-          <React.Fragement key={e}>
-            <DragItem data={e} />
-          </React.Fragement>
+          <DragItem key={e} data={e} />
         ))}
       </div>
     </div>

@@ -47,7 +47,7 @@ nav: 指南
 
 `jest`功能全面，资料丰富，能够很好地支撑原子化集合的工具函数；
 
-## 其他
+<!-- ## 其他
 
 ### 生成`CHANGELOG`
 
@@ -56,7 +56,7 @@ nav: 指南
 ```bash
 npm install -g conventional-changelog-cli
 pnpm run changelog
-```
+``` -->
 
 ## 📧 联系
 

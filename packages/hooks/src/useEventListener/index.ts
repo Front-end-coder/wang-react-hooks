@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import useLatest from '../useLatest';
 import { BasicTarget, getTargetElement } from '../utils/domTarget';
 import useEffectWithTarget from '../utils/useEffectWithTarget';
 
@@ -35,7 +35,7 @@ function useEventListener<K extends keyof WindowEventMap>(
 ): void;
 function useEventListener(eventName: string, handler: noop, options: Options): void;
 function useEventListener(eventName: string, handler: noop, options: Options = {}) {
-  const handlerRef = useRef(handler);
+  const handlerRef = useLatest(handler);
 
   useEffectWithTarget(
     () => {

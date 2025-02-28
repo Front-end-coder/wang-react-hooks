@@ -20,13 +20,13 @@ export default () => {
 
   useDrag('', dragRef, {
     dragImage: {
-      image: '/logo.svg',
+      image: '/wang-react-hooks/logo.svg',
     },
   });
 
   return (
     <div ref={dragRef} style={{ display: 'flex' }}>
-      <img style={COMMON_STYLE} src="/logo.png" />
+      <img style={COMMON_STYLE} src="/wang-react-hooks/logo.png" />
       <div style={COMMON_STYLE}>drag me</div>
     </div>
   );

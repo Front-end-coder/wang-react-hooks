@@ -48,7 +48,7 @@ export default function useDrug<T>(data: T, target: BasicTarget, options: Option
         optionsRef.current.onDragStart?.(event);
         event.dataTransfer.setData('custom', JSON.stringify(dataRef.current));
 
-        if (dragImage.image && imageElementRef.current) {
+        if (dragImage?.image && imageElementRef.current) {
           const { offsetX = 0, offsetY = 0 } = dragImage;
           event.dataTransfer.setDragImage(imageElementRef.current, offsetX, offsetY);
         }

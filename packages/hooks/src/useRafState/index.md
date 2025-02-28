@@ -13,7 +13,7 @@ group:
 
 ### 基础用法
 
-<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx"></code>
 
 ### API
 

@@ -96,7 +96,7 @@ export default function useLongPress(
           clearTimeout(timerRef.current);
         }
         if (isTriggeredRef.current) {
-          onLongPressEndRef.current(event);
+          onLongPressEndRef.current?.(event);
         }
         if (shouldTriggerClick && !isTriggeredRef.current && onClickRef.current) {
           onClickRef.current(event);

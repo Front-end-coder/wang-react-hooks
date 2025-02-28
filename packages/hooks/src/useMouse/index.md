@@ -13,11 +13,11 @@ group:
 
 ### 基础用法
 
-<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx"></code>
 
 ### 获取鼠标相对于元素的位置
 
-<code hideActions='["CSB"]' src="./demo/demo2.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo2.tsx"></code>
 
 ## API
 
