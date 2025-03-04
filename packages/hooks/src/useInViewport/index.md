@@ -2,7 +2,7 @@
 nav: Hooks
 group:
   title: DOM
-  order: 4
+  order: 5
 ---
 
 # useInViewport

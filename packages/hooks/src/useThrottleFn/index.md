@@ -2,7 +2,7 @@
 nav: Hooks
 group:
   title: Effect
-  order: 3
+  order: 4
 ---
 
 # useThrottleFn
