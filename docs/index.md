@@ -7,7 +7,7 @@ hero:
     - text: 指南
       link: /guide
     - text: hooks列表
-      link: /components/use-boolean
+      link: /hooks/use-boolean
 features:
   - title: 可靠的代码健壮
     emoji: 💎

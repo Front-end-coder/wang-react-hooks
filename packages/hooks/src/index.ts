@@ -42,6 +42,9 @@ import useTitle from './useTitle';
 import useUpdate from './useUpdate';
 import useCreation from './useCreation';
 
+// 请求
+import useRequest from './useRequest';
+
 export {
   useToggle,
   useBoolean,
@@ -85,4 +88,5 @@ export {
   useTitle,
   useUpdate,
   useCreation,
+  useRequest,
 };

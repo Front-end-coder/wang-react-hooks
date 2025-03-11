@@ -1,5 +1,5 @@
 import type { MutableRefObject } from 'react';
-import { FetchState, Options, PluginReturn, Service, Subscribe } from './type';
+import { FetchState, Options, PluginReturn, Service, Subscribe } from './types';
 import { isFunction } from 'lodash';
 
 export default class Fetch<TData, TParams extends any[]> {

@@ -136,6 +136,9 @@ importers:
       antd:
         specifier: ^5.24.1
         version: 5.24.1(react-dom@18.3.1)(react@18.3.1)
+      mockjs:
+        specifier: ^1.1.0
+        version: 1.1.0
 
 packages:
 
@@ -11702,6 +11705,13 @@ packages:
     dependencies:
       minimist: 1.2.8
     dev: false
+
+  /mockjs@1.1.0:
+    resolution: {integrity: sha512-eQsKcWzIaZzEZ07NuEyO4Nw65g0hdWAyurVol1IPl1gahRwY+svqzfgfey8U8dahLwG44d6/RwEzuK52rSa/JQ==}
+    hasBin: true
+    dependencies:
+      commander: 13.1.0
+    dev: true
 
   /mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}

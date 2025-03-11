@@ -6,12 +6,12 @@ import useUnmount from '../../useUnmount';
 import useUpdate from '../../useUpdate';
 import isDev from '../../utils/isDev';
 import Fetch from './Fetch';
-import { Options, Plugin, Service } from './type';
+import type { Options, Plugin, Result, Service } from './types';
 
 export default function useRequestImplement<TData, TParams extends any[]>(
   service: Service<TData, TParams>,
   options: Options<TData, TParams> = {},
-  plugins?: Plugin<TData, TParams>[],
+  plugins: Plugin<TData, TParams>[],
 ) {
   const { manual = false, ...rest } = options;
 
@@ -29,7 +29,7 @@ export default function useRequestImplement<TData, TParams extends any[]>(
   const serviceRef = useLatest(service);
   const update = useUpdate();
   const fetchInstance = useCreation(() => {
-    const instance = plugins?.map((p) => p?.onInit?.(fetchOptions)).filter(Boolean);
+    const initState = plugins?.map((p) => p?.onInit?.(fetchOptions)).filter(Boolean);
     return new Fetch<TData, TParams>(
       serviceRef,
       fetchOptions,
@@ -38,11 +38,12 @@ export default function useRequestImplement<TData, TParams extends any[]>(
     );
   }, []);
   fetchInstance.options = fetchOptions;
-  fetchInstance.pluginImpls = plugins?.map((p) => p(fetchInstance, fetchOptions));
+  fetchInstance.pluginImpls = plugins.map((p) => p(fetchInstance, fetchOptions));
 
   useMount(() => {
     if (!manual) {
       const params = fetchInstance.state.params || options.defaultParams || [];
+      // @ts-ignore
       fetchInstance.run(...params);
     }
   });
@@ -62,5 +63,5 @@ export default function useRequestImplement<TData, TParams extends any[]>(
     run: useMemoizedFn(fetchInstance.run.bind(fetchInstance)),
     runAsync: useMemoizedFn(fetchInstance.runAsync.bind(fetchInstance)),
     mutate: useMemoizedFn(fetchInstance.mutate.bind(fetchInstance)),
-  };
+  } as Result<TData, TParams>;
 }

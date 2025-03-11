@@ -46,6 +46,7 @@
     "@types/js-cookie": "^3.0.6",
     "@types/lodash": "^4.17.15",
     "@types/node": "^22.13.5",
-    "antd": "^5.24.1"
+    "antd": "^5.24.1",
+    "mockjs": "^1.1.0"
   }
 }
