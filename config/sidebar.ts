@@ -199,6 +199,10 @@ export const useRequestDocs = [
         title: 'Loading Delay',
         link: '/hooks/use-request/docs/loading-delay',
       },
+      {
+        title: '轮询',
+        link: '/hooks/use-request/docs/polling',
+      },
     ],
   },
 ];
