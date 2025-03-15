@@ -4,6 +4,7 @@ import useLoadingDelayPlugin from './plugins/useLoadingDelayPlugin';
 import usePollingPlugins from './plugins/usePollingPlugins';
 import useAutoRunPlugin from './plugins/useAutoRunPlugin';
 import useRefreshOnWindowFocusPlugin from './plugins/useRefreshOnWindowFocusPlugin';
+import useDebouncePlugin from './plugins/useDebouncePlugin';
 
 function useRequest<TData, TParams extends any[]>(
   service: Service<TData, TParams>,
@@ -16,6 +17,7 @@ function useRequest<TData, TParams extends any[]>(
     usePollingPlugins,
     useAutoRunPlugin,
     useRefreshOnWindowFocusPlugin,
+    useDebouncePlugin,
   ] as Plugin<TData, TParams>[]);
 }
 

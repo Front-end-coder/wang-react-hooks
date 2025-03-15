@@ -12,5 +12,6 @@ module.exports = {
     'no-alert': 'off', // 关闭alert
     '@typescript-eslint/no-invalid-void-type': 'off', // 关闭void校验
     '@typescript-eslint/consistent-type-definitions': 'off', // 关闭type不能定义对象校验
+    'no-param-reassign': 'off', // 关闭参数赋值属性赋值校验
   },
 };
