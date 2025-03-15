@@ -43,7 +43,7 @@ import useUpdate from './useUpdate';
 import useCreation from './useCreation';
 
 // 请求
-import useRequest from './useRequest';
+import useRequest, { clearCache } from './useRequest';
 
 export {
   useToggle,
@@ -89,4 +89,5 @@ export {
   useUpdate,
   useCreation,
   useRequest,
+  clearCache,
 };
