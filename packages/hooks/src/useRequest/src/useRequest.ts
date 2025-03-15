@@ -2,6 +2,8 @@ import { Options, Plugin, Service } from './types';
 import useRequestImplement from './useRequestImplement';
 import useLoadingDelayPlugin from './plugins/useLoadingDelayPlugin';
 import usePollingPlugins from './plugins/usePollingPlugins';
+import useAutoRunPlugin from './plugins/useAutoRunPlugin';
+import useRefreshOnWindowFocusPlugin from './plugins/useRefreshOnWindowFocusPlugin';
 
 function useRequest<TData, TParams extends any[]>(
   service: Service<TData, TParams>,
@@ -12,6 +14,8 @@ function useRequest<TData, TParams extends any[]>(
     ...(plugins || []),
     useLoadingDelayPlugin,
     usePollingPlugins,
+    useAutoRunPlugin,
+    useRefreshOnWindowFocusPlugin,
   ] as Plugin<TData, TParams>[]);
 }
 
