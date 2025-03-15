@@ -7,6 +7,7 @@ import useRefreshOnWindowFocusPlugin from './plugins/useRefreshOnWindowFocusPlug
 import useDebouncePlugin from './plugins/useDebouncePlugin';
 import useThrottlePlugin from './plugins/useThrottlePlugin';
 import useCachePlugin from './plugins/useCachePlugin';
+import useRetryPlugin from './plugins/useRetryPlugin';
 
 function useRequest<TData, TParams extends any[]>(
   service: Service<TData, TParams>,
@@ -22,6 +23,7 @@ function useRequest<TData, TParams extends any[]>(
     useDebouncePlugin,
     useThrottlePlugin,
     useCachePlugin,
+    useRetryPlugin,
   ] as Plugin<TData, TParams>[]);
 }
 
