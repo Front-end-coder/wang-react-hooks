@@ -39,6 +39,11 @@ import { configResponsive, useResponsive } from './useResponsive';
 import useScroll from './useScroll';
 import useSize from './useSize';
 import useTitle from './useTitle';
+import useUpdate from './useUpdate';
+import useCreation from './useCreation';
+
+// 请求
+import useRequest, { clearCache } from './useRequest';
 
 export {
   useToggle,
@@ -81,4 +86,8 @@ export {
   useScroll,
   useSize,
   useTitle,
+  useUpdate,
+  useCreation,
+  useRequest,
+  clearCache,
 };
