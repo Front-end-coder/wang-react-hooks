@@ -17,19 +17,6 @@ export const hooks = [
     ],
   },
   {
-    title: '请求',
-    children: [
-      {
-        title: 'useRequest',
-        link: '/hooks/use-request/docs/index',
-      },
-      {
-        title: 'demo',
-        link: '/hooks/use-request/docs/demo',
-      },
-    ],
-  },
-  {
     title: '状态',
     children: [
       {
@@ -193,15 +180,47 @@ export const useRequestDocs = [
     children: [
       {
         title: '快速上手',
-        link: '/hooks/use-request/docs/index',
+        link: '/request-docs/index',
+      },
+      {
+        title: '基础用法',
+        link: '/request-docs/basic',
       },
       {
         title: 'Loading Delay',
-        link: '/hooks/use-request/docs/loading-delay',
+        link: '/request-docs/loading-delay',
       },
       {
         title: '轮询',
-        link: '/hooks/use-request/docs/polling',
+        link: '/request-docs/polling',
+      },
+      {
+        title: 'Ready',
+        link: '/request-docs/ready',
+      },
+      {
+        title: '依赖刷新',
+        link: '/request-docs/refresh-deps',
+      },
+      {
+        title: '屏幕聚焦重新请求',
+        link: '/request-docs/refresh-on-window-focus',
+      },
+      {
+        title: '防抖',
+        link: '/request-docs/debounce',
+      },
+      {
+        title: '节流',
+        link: '/request-docs/throttle',
+      },
+      {
+        title: '缓存 & SWR',
+        link: '/request-docs/cache',
+      },
+      {
+        title: '错误重试',
+        link: '/request-docs/retry',
       },
     ],
   },

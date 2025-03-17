@@ -19,24 +19,29 @@ export default defineConfig({
         link: '/guide',
       },
       {
-        title: 'Hooks',
+        title: '基础',
         link: '/hooks/use-boolean',
         activePath: '/hooks',
       },
+      {
+        title: '请求',
+        link: '/request-docs/index',
+        activePath: '/request-docs',
+      },
     ],
     sidebar: {
+      '/request-docs': useRequestDocs,
       '/hooks': hooks,
-      '/hooks/use-request/docs': useRequestDocs,
     },
   },
   alias: {
     'wang-react-hooks': process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
-    // 约定式路由的根目录配置
+    // 约定式路由的根目录配置,容易犯错的点，路由一定是复数形式，写request-doc也会生成request-docs
     atomDirs: [
       { type: 'hooks', dir: 'packages/hooks/src' },
-      { type: 'hooks/use-request/docs', dir: 'packages/hooks/src/useRequest/docs' },
+      { type: 'request-docs', dir: 'packages/hooks/src/useRequest/docs' },
     ],
   },
 });
